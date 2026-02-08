@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staybnb</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d892350074.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+
+</head>
+<body>
+
+    <!------------------------------- HEADER --------------------------->
+
+        <nav id="nav-bar" class="navbar-white">
+            <img src="images/logo-red.png" class="logo">
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Popular Places</a></li>
+                <li><a href="travel.html" >Travel Outside</a></li>
+                <li><a href="#" >Online Packages</a></li>
+            </ul>
+
+            <a href="#" class="register-btn">Register Now</a>
+            <i class="fas fa-bars" onclick="togglebtn()"></i>
+            
+        </nav>
+
+<div class="container">
+    <div class="list-container">
+        <div class="left-col">
+        <p>200+ Options</p>
+        <h1>Recommended Places In San Franciso</h1>
+
+        <div class="house">
+            <div class="house-img">
+                <img src="images/image-s1.png">
+            </div>
+
+            <div class="house-info">
+                <p>Private Villa in San Franciso</p>
+                <h3>Deluxe Queen Room With Street View</h3>
+                <p>1 Bedroom / 1 Bathroom / Wifi / Kitchen</p>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-alt"></i>
+                <i class="far fa-star"></i>
+                <div class="house-price">
+                    <p>2 Guest</p>
+                    <h4> ₹9000 / day</h4>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="house">
+            <div class="house-img">
+                <img src="images/image-s2.png">
+            </div>
+
+            <div class="house-info">
+                <p>Luxury Apartment in Tokyo </p>
+                <h3>Modern Studio With City Skyline View</h3>
+                <p> Studio / 1 Bathroom / Wifi / Kitchen </p>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="far fa-star"></i>
+                <div class="house-price">
+                    <p>2 Guest</p>
+                    <h4> ₹12000 / day</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="house">
+            <div class="house-img">
+                <img src="images/image-s3.png">
+            </div>
+
+            <div class="house-info">
+                <p>Beach House in  Mexico City</p>
+                <h3>Ocean View Cottage Near Beach</h3>
+                <p> 2 Bedrooms / 2 Bathrooms / Wifi / Kitchen</p>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <div class="house-price">
+                    <p>4 Guest</p>
+                    <h4> ₹18000 / day</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="house">
+            <div class="house-img">
+                <img src="images/image-s4.png">
+            </div>
+
+            <div class="house-info">
+                <p>City Loft in Las Vegas</p>
+                <h3>Stylish Loft in Downtown Area</h3>
+                <p>1 Bedroom / 1 Bathroom / Wifi / Kitchen</p>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-alt"></i>
+                <div class="house-price">
+                    <p>2 Guest</p>
+                    <h4> ₹25000 / day</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="house">
+            <div class="house-img">
+                <img src="images/image-s5.png">
+            </div>
+
+            <div class="house-info">
+                <p>Private Suite in Rome</p>
+                <h3>Cozy Suite With Garden View</h3>
+                <p>1 Bedroom / 1 Bathroom / Wifi</p>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="far fa-star"></i>
+                <div class="house-price">
+                    <p>4 Guest</p>
+                    <h4> ₹30000 / day</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="house">
+            <div class="house-img">
+                <img src="images/image-s6.png">
+            </div>
+
+            <div class="house-info">
+                <p>Family Home in Bangkok</p>
+                <h3>Spacious Home Perfect For Families</h3>
+                <p> 3 Bedrooms / 2 Bathrooms / Wifi / Kitchen</p>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-alt"></i>
+                <i class="far fa-star"></i>
+                <div class="house-price">
+                    <p>6 Guest</p>
+                    <h4> ₹40000 / day</h4>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="right-col">
+        <div class="sidebar">
+            <h2>Select Filters</h2>
+            <h3>Propert Type</h3>
+            <div class="filter">
+                <input type="checkbox"> <p>House</p> <span>(0)</span>
+            </div>
+
+            <div class="filter">
+                <input type="checkbox"> <p>Hostel</p> <span>(0)</span>
+            </div>
+
+            <div class="filter">
+                <input type="checkbox"> <p>Flat</p> <span>(0)</span>
+            </div>
+
+            <div class="filter">
+                <input type="checkbox"> <p>Villa</p> <span>(0)</span>
+            </div>
+
+            <div class="filter">
+                <input type="checkbox"> <p>Guest Suite</p> <span>(0)</span>
+            </div>
+
+
+
+            <h3>Amenities</h3>
+
+            <div class="filter">
+                <input type="checkbox"> <p>Air Conditioner</p> <span>(0)</span>
+            </div>
+            <div class="filter">
+                <input type="checkbox"> <p>Wifi</p> <span>(0)</span>
+            </div>
+            <div class="filter">
+                <input type="checkbox"> <p>GYM</p> <span>(0)</span>
+            </div>
+            <div class="filter">
+                <input type="checkbox"> <p>Private Pool</p> <span>(0)</span>
+            </div>
+            <div class="filter">
+                <input type="checkbox"> <p>Kitchen</p> <span>(0)</span>
+            </div>
+
+            <div class="sidebar-link">
+                <a href="#">View More</a>
+            </div>
+
+
+
+
+        </div>
+    </div>
+</div>
+
+<div class="pagination">
+    <img src="images/arrow.png" >
+    <span class="current">1</span>
+    <span>2</span>
+    <span>3</span>
+    <span>4</span>
+    <span>5</span>
+    <span>&middot;&middot;&middot;&middot;</span>
+    <span>10</span>
+    <img src="images/arrow.png" class="right-arrow">
+</div>
+
+
+
+
+     <!------------------------------- FOOTER --------------------------->
+
+     <div class="container">
+                <div class="footer">
+            <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <hr>
+            <p>Copyright 2026, Staybnb</p>
+        </div>
+     </div>
+
+
+
+    <script>
+        var navBar = document.getElementById("nav-bar");
+
+        function togglebtn(){
+            navBar.classList.toggle("hidemenu")
+        }
+    </script>
+
+
+</body>
+</html>
