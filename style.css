@@ -664,3 +664,309 @@ nav .fa-bars{
 
 
 
+/****************************** HOUSE DETAILS PAGE   ***************************/
+
+.house-details{
+    padding: 0 12%;
+}
+
+.house-title{
+    margin-top: 50px;
+}
+
+
+.house-title h1{
+    font-weight: 600;
+}
+
+.house-title .row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 10px 0;
+}
+
+.house-title span{
+    margin: 0 20px;
+}
+
+.house-title  i{
+    color:  #ff5361;
+    font-size: 14px;
+}
+
+
+.gallery{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas: 'first first . . ' 'first first . . ' ;
+    margin: 20px 0;
+}
+
+.gallery div img{
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+} 
+
+.gallery-img-1{
+    grid-area: first;
+}
+
+.small-details h2{
+    font-weight: 500;
+}
+
+.small-details h4{
+    text-align: right;
+    font-size: 22px;
+}
+
+.line{
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    width: 100%;
+    max-width: 800px;
+    margin: 20px 0 50px;
+}
+
+.check-form {
+    background: #fff;
+    box-shadow: 0 0 30px rgba(0,0,0,0.1);
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+/* Input Sections */
+.check-form div {
+    flex: 1;
+    min-width: 100px;
+}
+
+.check-form label {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.check-form input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 13px;
+    color: #777;
+    margin-top: 5px;
+}
+
+/* .check-form{
+    width: 85%;
+    max-width: 1200px;
+    margin: 80px auto;
+    background: #ffffff;
+    border-radius: 14px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 50px;
+}
+
+
+.check-form label{
+    display: block;
+    font-size: 17px;
+    font-weight: 600;
+    color: #222;
+    margin-bottom: 6px;
+}
+
+.check-form  div{
+    padding: 10px 40px 10px 0;
+}
+.check-form  input{
+    background: transparent;
+    border: 0;
+    outline: none ; */
+/* } */
+
+.check-form  button{
+    background-color: #ff5361;
+    border: 0;
+    outline: none;
+    color: #fff;
+    padding: 18px;
+    width: 350px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.check-form button:hover{
+    background-color: #ff3b4d;
+}
+
+.guest-field{
+    flex: 1;
+}
+
+.details-list{
+    list-style: none;
+    margin: 50px 0;
+}
+
+.details-list li{
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #555;
+    position: relative;
+}
+
+.details-list li span{
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.details-list li i{
+    position: absolute;
+    top: 5px;
+    left: -40px;
+}
+
+.home-desc{
+    max-width: 700px;
+    margin-bottom: 50px;
+
+}
+.map{
+    margin: 50px 0;
+}
+
+.map iframe{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.map h3{
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.map b{
+    display: block;
+    margin-bottom: 16px;
+}
+
+
+.host{
+    display: flex;
+    align-items: center;
+}
+
+.host img{
+    width: 80px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.host h2{
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.host i{
+    color: #ff5361;
+}
+
+.contact-host{
+    display: inline-block;
+    margin: 40px 0 40px 120px;
+    text-decoration: none;
+    color: #555;
+    padding: 15px 50px;
+    border: 1px solid #ff5361;
+    border-radius: 8px;
+}
+
+.contact-host:hover {
+    background-color: #ff5361;
+    color: white;
+}
+
+
+/****************************** Media queries for House page ***************************/
+
+@media only screen and (max-width:700px){
+    .house-details{
+        margin-top: 150px;
+    }
+
+    .row p{
+        margin-top: 10px;
+    }
+
+    .gallery{
+        grid-template-areas: 'first first' '. .' '. .';
+    }
+
+    .small-details h2{
+        font-size: 20px;
+        margin-top: 24px;
+    }
+
+    .small-details h4{
+        text-align: left;
+        margin: 10px 0;
+        font-size: 18px;
+    }
+
+    .check-form {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 20px;
+    }
+
+    .check-form button {
+        width: 100%;
+    }
+
+    /* .check-form{
+        padding: 10px 30px;
+
+    }
+
+    .check-form div{
+        padding: 20px 0;
+        width: 100%;
+    }
+
+    .check-form input{
+        border-bottom:1px solid #ccc ;
+        width: 100%;
+        padding-bottom: 5px;
+    }
+
+    .check-form button{
+        font-size: 14px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        border-radius: 4px;
+    } */
+
+    .host{
+        display: block;
+        line-height: 28px;
+    }
+
+    .contact-host{
+        margin:40px 0 ;
+    }
+
+}
