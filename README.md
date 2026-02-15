@@ -6,7 +6,8 @@ This project focuses on clean UI design, responsive layouts, and modern styling.
 ---
 
 ## 🚀 Live Demo
-(If deployed, add link here)
+
+https://shivansgupta25.github.io/staybnb-frontend/
 
 ---
 
